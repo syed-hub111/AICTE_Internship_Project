@@ -1,10 +1,11 @@
-Simple Weather Forecast App 🌦️
+*Simple Weather Forecast App 🌦️*
+
 A clean and straightforward web application to get the current weather and a 5-day forecast for any city. This project is built with plain HTML, CSS, and JavaScript, making it perfect for beginners.
 
 Demo
 (Note: Replace the image URL above with a link to your own screenshot!)
 
-🚀 Features
+*🚀 Features*
 City Search: Find weather information for any city in the world.
 
 Current Weather: Displays current temperature, condition, feels like temperature, wind speed, pressure, and humidity.
@@ -15,12 +16,12 @@ Clean UI: A simple, modern, and easy-to-read user interface.
 
 Responsive Design: The layout adjusts for different screen sizes.
 
-🛠️ Tech Stack
+*🛠️ Tech Stack*
 Frontend: HTML5, CSS3, Vanilla JavaScript
 
 API: WeatherAPI.com for real-time weather data.
 
-⚙️ Setup and Installation
+*⚙️ Setup and Installation*
 To get a local copy up and running, follow these simple steps.
 
 Prerequisites
