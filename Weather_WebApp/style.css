@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #2193b0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Form Styling */
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#city-input {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+#search-form button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #2193b0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    transition: background-color 0.3s;
+}
+
+#search-form button:hover {
+    background-color: #1c7a91;
+}
+
+/* Current Weather Styling */
+#current-weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.current-main {
+    text-align: left;
+}
+
+.current-main h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.current-main .temp {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.current-main .condition {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.current-details {
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Forecast Styling */
+#forecast-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forecast-day img {
+    width: 50px;
+    height: 50px;
+}
+
+.forecast-day .day {
+    font-weight: 600;
+}
+
+.forecast-day .temps {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: #d9534f;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#loader {
+    margin-top: 20px;
+    font-size: 18px;
+}
