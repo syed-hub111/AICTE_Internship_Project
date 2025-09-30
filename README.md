@@ -32,7 +32,7 @@ Clone the repository:
 
 Bash
 
-git clone (https://github.com/syed-hub111/AICTE_Internship_Project.git)
+git clone https://github.com/syed-hub111/AICTE_Internship_Project.git
 Get your free API Key:
 
 Go to www.weatherapi.com and sign up for a free account.
